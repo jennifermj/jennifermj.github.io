@@ -5,6 +5,6 @@
     font-style: normal;
 }
 
-p {
-    font-family: 'Journal';
+body {
+    font-family: 'Journal', Georgia;
 }    
