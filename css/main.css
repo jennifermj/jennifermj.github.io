@@ -1,11 +1,7 @@
 @font-face {
     font-family: 'journal';
     src: url('CaviarDreams-webfont.eot');
-    src: url('font/journal.ttf') format('truetype');     
+    src: url('journal.ttf') format('truetype');     
     font-weight: normal;
     font-style: normal;
 }
-
-p {
-    font-family: 'journal';
-}    
