@@ -1,10 +1,62 @@
 @font-face {
-    font-family: 'Journal';
-    src: url('font/Journal.ttf') format('truetype');     
+    font-family: Journal;
+    src: url('../font/Journal.ttf') format('truetype');     
     font-weight: normal;
     font-style: normal;
 }
 
 body {
-    font-family: 'Journal', 'Shadows Into Light Two', cursive, Georgia;
+    font-family: Journal, 'Shadows Into Light Two', cursive, Georgia;
+}  
+
+h1 {
+    font-size: 4.5em; /* 40px/16=2.5em */
+}
+
+h2 {
+    font-size: 3.5em; /* 30px/16=1.875em */
+}
+
+p {
+    font-size: 2em; /* 14px/16=0.875em */
+    /*     
+    top padding is 10px
+    right padding is 5px
+    bottom padding is 15px
+    left padding is 20px
+    */
+
+    padding: 0cm 2cm 0cm 2cm;
+}
+
+li{
+    font-size: 2em; /* 14px/16=0.875em */
 }    
+
+ /* For the carousel */ 
+html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .slider {
+        width: 50%;
+        margin: 100px auto;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+        color: black;
+    }
